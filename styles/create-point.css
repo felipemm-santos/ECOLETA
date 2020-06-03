@@ -1,0 +1,74 @@
+#page-create-point {
+    width: 90%;
+    max-width: 1100px;
+
+    /* alinhamento da caixa pelo lado de fora  */
+    margin: 0 auto;
+}
+
+#page-create-point header {
+    margin-top: 48px;
+
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+#page-create-point header a {
+    color: var(--title-color);
+    font-weight: bold;
+
+
+    display: flex;
+    align-items: center;
+
+}
+
+#page-create-point header a span {
+    background-image: url("../assets/icones/arrow-left.svg");
+
+    display: flex;
+
+    width: 20px;
+    height: 20px;
+
+    margin-right: 16px ;
+}
+
+form {
+    background-color: white;
+
+    /* margin: vertical | horizontal */
+    margin: 80px auto;
+    padding: 64px;
+
+    border-radius: 8px;
+
+    max-width: 730px;
+
+}
+
+form H1 {
+    font-size: 36px;
+}
+
+form fieldset {
+    margin-top: 64px;
+
+    border: 0;
+}
+
+form legend {
+    margin-bottom: 40px;
+}
+
+form legend h2{
+    font-size: 24px;
+}
+
+form .field {
+    display: flex;
+    flex-direction: column;
+    
+}
