@@ -2,7 +2,7 @@
 
 :root {
   --title-color: #6d39bde0;
-  --primary-color: #34cb79;
+  --primary-color: rgba(31, 206, 40, 0.76);
 }
 
 * {
