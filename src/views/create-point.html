@@ -13,7 +13,7 @@
 {% block content %}
   {% include "partials/page-header.html" %}
 
-  <form action="">
+  <form action="/save-point" method="POST">
     <h1>Cadastro do ponto de coleta</h1>
 
     <fieldset>
@@ -70,27 +70,27 @@
         <span>Selecione um ou mais itens abaixo</span>
       </legend>
       <div class="items-grid">
-        <li class="focus-hover" data-id="1">
+        <li class="focus-hover" data-id="Lâmpadas">
           <img src="assets/icones/lampadas.svg" alt="Lâmpadas"/>
           <span>Lâmpadas</span>
         </li>
-        <li class="focus-hover" data-id="2">
+        <li class="focus-hover" data-id="Pilhas e Baterias">
           <img src="assets/icones/baterias.svg" alt="Pilhas e Baterias"/>
           <span>Pilhas e Baterias</span>
         </li>
-        <li class="focus-hover" data-id="3">
+        <li class="focus-hover" data-id="Papéis e Papelão">
           <img src="assets/icones/papeis-papelao.svg" alt="Papéis e Papelão"/>
           <span>Papéis e Papelão</span>
         </li>
-        <li class="focus-hover" data-id="4">
+        <li class="focus-hover" data-id="Residuos Eletrônicos">
           <img src="assets/icones/eletronicos.svg" alt="Residuos Eletrônicos"/>
           <span>Residuos Eletrônicos</span>
         </li>
-        <li class="focus-hover" data-id="5">
+        <li class="focus-hover" data-id="Resídups Orgânicos">
           <img src="assets/icones/organicos.svg" alt="Resídups Orgânicos"/>
           <span>Resídups Orgânicos</span>
         </li>
-        <li class="focus-hover" data-id="6">
+        <li class="focus-hover" data-id="Óleo de Cozinha">
           <img src="assets/icones/oleo.svg" alt="Óleo de Cozinha"/>
           <span>Óleo de Cozinha</span>
         </li>
