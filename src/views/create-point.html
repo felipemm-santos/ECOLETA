@@ -21,10 +21,17 @@
         <h2>Dados da entidade</h2>
       </legend>
 
-      <div class="field">
-        <label for="name">Nome da identidade</label>
-        <input class="focus-hover" type="text" name="name" required="required"/>
-      </div>
+     <div class="field-group">
+        <div class="field">
+          <label for="name">Nome da identidade</label>
+          <input class="focus-hover" type="text" name="name" required="required" />
+        </div>
+
+        <div class="field">
+          <label for="image">Imagem da identidade</label>
+          <input class="focus-hover" type="url" name="image"  placeholder="http://" required="required"/>
+        </div>
+     </div>
 
       <div class="field-group">
         <div class="field">
@@ -60,6 +67,7 @@
     <fieldset>
       <legend>
         <h2>Items de coleta</h2>
+        <span>Selecione um ou mais itens abaixo</span>
       </legend>
       <div class="items-grid">
         <li class="focus-hover" data-id="1">
