@@ -53,3 +53,12 @@ const db = new sqlite3.Database('./src/database/database.db');
 
 //   db.run(query, values, afterInsertData);
 
+//   //Consultar dados na tabela
+// //   db.all(`SELECT name FROM places`, function(err, rows){
+// //     if (err) {
+// //         return console.log(err);
+// //       }
+// //       console.log("Aqui estão seus registros");
+// //       console.log(rows);    
+      
+// //   })
