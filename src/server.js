@@ -21,8 +21,8 @@ server.get("/", (req, res) => {
 server.get("/create-point", (req, res) => {
    return res.render("create-point.html")
 })
-server.get("/page-search-results", (req, res) => {
-   return res.render("page-search-results.html")
+server.get("/search", (req, res) => {
+   return res.render("search-results.html")
 })
 
 
