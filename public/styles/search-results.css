@@ -1,12 +1,18 @@
+body {
+  background: #c9f2ffc7;
+}
+
 #page-search-results::after {
   content: '';
-  position: fixed;
-  background: #e0dfdfb6;
-  top: 265px;
+  position: absolute;
+  background: #b9efff;
+  top: 0;
   right: 0;
   left: 0;
   bottom: 0;
-  
+  /* pesquisar rem mais tarde */
+  height: 16rem;
+
   z-index: -1;
 }
 
@@ -48,7 +54,6 @@
 
 main {
   margin: 48px;
-
 }
 
 main h4 {
