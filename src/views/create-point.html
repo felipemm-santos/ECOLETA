@@ -108,6 +108,11 @@
 {% block modal %}
   {% if saved %}
     {% include "partials/point-created.html" %}
+
+  {% else %}
+    {% if failed %}
+      {% include "partials/creation-failed.html" %}
+    {% endif %}
   {% endif %}
 {% endblock modal %}
 
