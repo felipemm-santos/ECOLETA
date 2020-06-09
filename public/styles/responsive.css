@@ -30,7 +30,7 @@
   #page-create-point .field-group {
     flex-direction: column;
   }
-  
+
   #page-create-point .field + .field {
     margin-left: 0;
   }
@@ -45,5 +45,29 @@
 @media (max-height: 730px) {
   #page-home {
     background-position-y: 200px;
+  }
+}
+
+@media (max-height: 760px) and (max-width: 900px) {
+  #page-home main {
+    max-height: 400px;
+  }
+  #page-home main h1 {
+    font-size: 34px;
+  }
+  #page-home main p {
+    font-size: 18px;
+  }
+}
+
+@media (max-height: 575px) and (max-width: 900px) {
+  #page-home header a {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+  }
+  #page-home header a span {
+    width: 30px;
   }
 }
